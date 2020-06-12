@@ -16,13 +16,13 @@ if g:plug.ready()
     Plug 'AndrewRadev/gapply.vim'
     Plug 'Dkendal/fzy-vim'
     Plug 'aliou/bats.vim'
-    Plug 'b4b4r07/mru.vim'
-    Plug 'b4b4r07/vim-ansible-vault'
-    Plug 'b4b4r07/vim-crowi'
-    Plug 'b4b4r07/vim-hcl'
-    Plug 'b4b4r07/vim-shellutils'
-    Plug 'b4b4r07/vim-sqlfmt'
-    Plug 'b4b4r07/vim-unicode'
+    Plug 'hohihohi/mru.vim'
+    Plug 'hohihohi/vim-ansible-vault'
+    Plug 'hohihohi/vim-crowi'
+    Plug 'hohihohi/vim-hcl'
+    Plug 'hohihohi/vim-shellutils'
+    Plug 'hohihohi/vim-sqlfmt'
+    Plug 'hohihohi/vim-unicode'
     Plug 'chrisbra/csv.vim'
     Plug 'christianrondeau/vim-base64'
     Plug 'cocopon/vaffle.vim'
@@ -57,7 +57,7 @@ if g:plug.ready()
     Plug 'w0rp/ale'
 
     " syntax? language support
-    Plug 'b4b4r07/vim-ltsv', { 'for': 'ltsv' }
+    Plug 'hohihohi/vim-ltsv', { 'for': 'ltsv' }
     Plug 'cespare/vim-toml', { 'for': 'toml' }
     Plug 'chase/vim-ansible-yaml'
     Plug 'dag/vim-fish', { 'for': 'fish' }
@@ -79,7 +79,7 @@ if g:plug.ready()
     " colorscheme
     Plug 'AlessandroYorba/Despacio'
     Plug 'arcticicestudio/nord-vim'
-    Plug 'b4b4r07/solarized.vim'
+    Plug 'hohihohi/solarized.vim'
     Plug 'chriskempson/vim-tomorrow-theme'
     Plug 'cocopon/iceberg.vim'
     Plug 'junegunn/seoul256.vim'

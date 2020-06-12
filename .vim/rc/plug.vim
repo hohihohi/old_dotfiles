@@ -14,8 +14,8 @@ if g:plug.ready() && g:config.vimrc.plugin_on
   call plug#begin(g:plug.base)
 
   " file and directory
-  Plug 'b4b4r07/vim-shellutils'
-  Plug 'b4b4r07/mru.vim'
+  Plug 'hohihohi/vim-shellutils'
+  Plug 'hohihohi/mru.vim'
   Plug 'junegunn/fzf'
   Plug 'junegunn/fzf.vim'
   Plug 'justinmk/vim-dirvish'
@@ -32,14 +32,14 @@ if g:plug.ready() && g:config.vimrc.plugin_on
   Plug 'thinca/vim-prettyprint', { 'on': 'PP' }
   Plug 'tyru/open-browser.vim'
   Plug 'tyru/open-browser-github.vim'
-  Plug 'b4b4r07/vim-hcl'
+  Plug 'hohihohi/vim-hcl'
   Plug 'fatih/vim-hclfmt'
   Plug has('lua') ? 'Shougo/neocomplete.vim' : 'Shougo/neocomplcache'
   Plug g:config.is_gui ? 'itchyny/lightline.vim' : ''
   Plug 'Dkendal/fzy-vim'
   Plug 'raphael/vim-present-simple'
   Plug 'mattn/webapi-vim'
-  Plug 'b4b4r07/vim-crowi'
+  Plug 'hohihohi/vim-crowi'
 
   Plug 'fatih/vim-go',                 { 'for': 'go' }
   Plug 'jnwhiteh/vim-golang',          { 'for': 'go' }
@@ -50,7 +50,7 @@ if g:plug.ready() && g:config.vimrc.plugin_on
   Plug 'evanmiller/nginx-vim-syntax',  { 'for': 'nginx' }
   Plug 'cespare/vim-toml',             { 'for': 'toml' }
   Plug 'elzr/vim-json',                { 'for': 'json' }
-  Plug 'b4b4r07/vim-ltsv',             { 'for': 'ltsv' }
+  Plug 'hohihohi/vim-ltsv',             { 'for': 'ltsv' }
   Plug 'jelera/vim-javascript-syntax', { 'for': 'javascript' }
   Plug 'maksimr/vim-jsbeautify',       { 'for': 'javascript' }
   Plug 'plasticboy/vim-markdown',      { 'for': 'markdown' }
@@ -60,14 +60,14 @@ if g:plug.ready() && g:config.vimrc.plugin_on
 
   Plug 'raphael/vim-present-simple'
   Plug 'mattn/webapi-vim'
-  Plug 'b4b4r07/vim-crowi'
+  Plug 'hohihohi/vim-crowi'
   Plug 'mattn/goplayground-vim'
   Plug 'haya14busa/vim-gofmt'
   Plug 'kylef/apiblueprint.vim'
   Plug 'millermedeiros/vim-esformatter'
   Plug 'juvenn/mustache.vim'
 
-  Plug 'b4b4r07/solarized.vim'
+  Plug 'hohihohi/solarized.vim'
   Plug 'w0ng/vim-hybrid'
   Plug 'junegunn/seoul256.vim'
   Plug 'nanotech/jellybeans.vim'
@@ -75,11 +75,11 @@ if g:plug.ready() && g:config.vimrc.plugin_on
 
   Plug 'pbogut/fzf-mru.vim'
 
-  Plug 'b4b4r07/vim-ansible-vault'
+  Plug 'hohihohi/vim-ansible-vault'
   Plug 'christianrondeau/vim-base64'
 
-  Plug 'b4b4r07/vim-unicode'
-  Plug 'b4b4r07/vim-sqlfmt'
+  Plug 'hohihohi/vim-unicode'
+  Plug 'hohihohi/vim-sqlfmt'
   Plug 'lepture/vim-jinja'
   Plug 'mattn/gist-vim'
 

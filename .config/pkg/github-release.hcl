@@ -20,7 +20,7 @@ github "neovim" {
 github "stein" {
   description = ""
 
-  owner = "b4b4r07"
+  owner = "hohihohi"
   repo  = "stein"
 
   release {
@@ -597,7 +597,7 @@ github "ketall" {
 }
 
 github "gist" {
-  owner       = "b4b4r07"
+  owner       = "hohihohi"
   repo        = "gist"
   description = "A simple gist editor for CLI"
   branch      = "master"
@@ -616,7 +616,7 @@ github "gist" {
 }
 
 github "gomi" {
-  owner       = "b4b4r07"
+  owner       = "hohihohi"
   repo        = "gomi"
   description = "Trash can in CLI"
   branch      = "master"
@@ -678,7 +678,7 @@ github "blogsync" {
 
 
 github "blog" {
-  owner       = "b4b4r07"
+  owner       = "hohihohi"
   repo        = "blog"
   description = "A CLI tool for editing blog built by hugo etc"
   branch      = "master"
@@ -695,7 +695,7 @@ github "blog" {
     # }
 
     env = {
-      BLOG_ROOT     = expand("~/src/github.com/b4b4r07/tellme.tokyo")
+      BLOG_ROOT     = expand("~/src/github.com/hohihohi/tellme.tokyo")
       BLOG_POST_DIR = "content/post"
       BLOG_EDITOR   = "vim"
     }

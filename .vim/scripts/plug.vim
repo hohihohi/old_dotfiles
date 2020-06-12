@@ -18,8 +18,8 @@ if g:plug.ready() && g:env.vimrc.plugin_on
     call plug#begin(g:plug.base)
 
     " file and directory
-    Plug 'b4b4r07/vim-shellutils'
-    Plug 'b4b4r07/mru.vim'
+    Plug 'hohihohi/vim-shellutils'
+    Plug 'hohihohi/mru.vim'
     Plug 'junegunn/fzf'
     Plug 'junegunn/fzf.vim'
     Plug 'justinmk/vim-dirvish'
@@ -36,14 +36,14 @@ if g:plug.ready() && g:env.vimrc.plugin_on
     Plug 'thinca/vim-prettyprint', { 'on': 'PP' }
     Plug 'tyru/open-browser.vim'
     Plug 'tyru/open-browser-github.vim'
-    Plug 'b4b4r07/vim-hcl'
+    Plug 'hohihohi/vim-hcl'
     Plug 'fatih/vim-hclfmt'
     Plug has('lua') ? 'Shougo/neocomplete.vim' : 'Shougo/neocomplcache'
     Plug g:env.is_gui ? 'itchyny/lightline.vim' : ''
     Plug 'Dkendal/fzy-vim'
     Plug 'raphael/vim-present-simple'
     Plug 'mattn/webapi-vim'
-    Plug 'b4b4r07/vim-crowi'
+    Plug 'hohihohi/vim-crowi'
 
     " syntax? language support
     Plug 'fatih/vim-go', { 'for': 'go' }
@@ -56,14 +56,14 @@ if g:plug.ready() && g:env.vimrc.plugin_on
     Plug 'evanmiller/nginx-vim-syntax', { 'for': 'nginx' }
     Plug 'cespare/vim-toml', { 'for': 'toml' }
     Plug 'elzr/vim-json', { 'for': 'json' }
-    Plug 'b4b4r07/vim-ltsv', { 'for': 'ltsv' }
+    Plug 'hohihohi/vim-ltsv', { 'for': 'ltsv' }
     Plug 'jelera/vim-javascript-syntax', { 'for': 'javascript' }
     Plug 'maksimr/vim-jsbeautify', { 'for': 'javascript' }
     Plug 'zplug/vim-zplug', { 'for': 'zplug' }
     Plug 'rhysd/vim-fixjson', { 'for': 'json' }
     Plug 'raphael/vim-present-simple'
     Plug 'mattn/webapi-vim'
-    Plug 'b4b4r07/vim-crowi'
+    Plug 'hohihohi/vim-crowi'
     Plug 'mattn/goplayground-vim'
     Plug 'haya14busa/vim-gofmt'
     Plug 'kylef/apiblueprint.vim'
@@ -77,13 +77,13 @@ if g:plug.ready() && g:env.vimrc.plugin_on
     " (Optional) Default: 1, enable(1)/disable(0) terraform module registry completion
     let g:terraform_registry_module_completion = 0
 
-    Plug '/Users/b4b4r07/src/github.com/b4b4r07/vim-spacing'
+    Plug '/Users/hohihohi/src/github.com/hohihohi/vim-spacing'
 
-    Plug 'b4b4r07/vim-ansible-vault'
+    Plug 'hohihohi/vim-ansible-vault'
     Plug 'christianrondeau/vim-base64'
 
     " colorscheme
-    Plug 'b4b4r07/solarized.vim'
+    Plug 'hohihohi/solarized.vim'
     Plug 'w0ng/vim-hybrid'
     Plug 'junegunn/seoul256.vim'
     Plug 'nanotech/jellybeans.vim'
@@ -93,8 +93,8 @@ if g:plug.ready() && g:env.vimrc.plugin_on
     Plug 'shawncplus/phpcomplete.vim'
     Plug 'm2mdas/phpcomplete-extended'
 
-    Plug 'b4b4r07/vim-unicode'
-    Plug 'b4b4r07/vim-sqlfmt'
+    Plug 'hohihohi/vim-unicode'
+    Plug 'hohihohi/vim-sqlfmt'
     Plug 'lepture/vim-jinja'
     Plug 'mattn/gist-vim'
 

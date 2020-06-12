@@ -1,10 +1,10 @@
 [core]
   editor = "vim"
   selectcmd = "fzf --multi --ansi --height 40% --reverse"
-  tomlfile = "/Users/b4b4r07/.config/history/config.toml"
+  tomlfile = "/Users/hohihohi/.config/history/config.toml"
 
 [history]
-  path = "/Users/b4b4r07/.config/history/history.ltsv"
+  path = "/Users/hohihohi/.config/history/history.ltsv"
   ignore_words = [
       '^\w+$',
       '^cd -+(\w)?$',

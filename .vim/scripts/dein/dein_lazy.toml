@@ -3,7 +3,7 @@ repo = 'thinca/vim-prettyprint'
 on_cmd = 'PP'
 
 [[plugins]]
-repo = 'b4b4r07/mru.vim'
+repo = 'hohihohi/mru.vim'
 on_cmd = 'MRU'
 
 [[plugins]]
