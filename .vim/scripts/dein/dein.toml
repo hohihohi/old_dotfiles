@@ -2,13 +2,13 @@
 repo = 'Shougo/dein.vim'
 
 [[plugins]]
-repo = 'b4b4r07/vim-shellutils'
+repo = 'hohihohi/vim-shellutils'
 
 [[plugins]]
-repo = 'b4b4r07/vim-shellutils'
+repo = 'hohihohi/vim-shellutils'
 
 [[plugins]]
-repo = 'b4b4r07/mru.vim'
+repo = 'hohihohi/mru.vim'
 
 [[plugins]]
 repo = 'junegunn/fzf.vim'
@@ -47,7 +47,7 @@ repo = 'tyru/caw.vim'
 repo = 'AndrewRadev/gapply.vim'
 
 [[plugins]]
-repo = 'b4b4r07/solarized.vim'
+repo = 'hohihohi/solarized.vim'
 
 [[plugins]]
 repo = 'w0ng/vim-hybrid'

@@ -1,5 +1,5 @@
 #compdef crowi
-# URL: https://github.com/b4b4r07/crowi
+# URL: https://github.com/hohihohi/crowi
 # vim: ft=zsh
 
 _crowi () {

@@ -7,13 +7,13 @@
 #
 #zplug "~/.zsh", from:local, use:"<->_*.zsh"
 #
-#zplug "b4b4r07/enhancd", use:init.sh
-#if zplug check "b4b4r07/enhancd"; then
+#zplug "hohihohi/enhancd", use:init.sh
+#if zplug check "hohihohi/enhancd"; then
 #    #export ENHANCD_FILTER="fzf --height 50% --reverse --ansi --preview 'ls -l {}' --preview-window down"
 #    export ENHANCD_FILTER="fzf --height 25% --reverse --ansi"
 #    export ENHANCD_DOT_SHOW_FULLPATH=1
 #fi
-#zplug "b4b4r07/zsh-vimode-visual", use:"*.zsh", defer:3
+#zplug "hohihohi/zsh-vimode-visual", use:"*.zsh", defer:3
 #zplug "zsh-users/zsh-completions"
 ##zplug "zsh-users/zsh-history-substring-search", defer:3
 #zplug "zsh-users/zsh-syntax-highlighting", defer:2
@@ -21,7 +21,7 @@
 #zplug "glidenote/hub-zsh-completion"
 #zplug 'Valodim/zsh-curl-completion'
 #
-#zplug 'b4b4r07/epoch-cat', \
+#zplug 'hohihohi/epoch-cat', \
 #    as:command, \
 #    hook-build:'go get -d && go build'
 #
@@ -82,50 +82,50 @@
 ##    rename-to:'$1', \
 ##    if:'(( $+commands[python] ))'
 #
-#zplug "b4b4r07/httpstat", \
+#zplug "hohihohi/httpstat", \
 #    as:command, \
 #    use:'(*).sh', \
 #    rename-to:'$1'
 #
 #zplug 'kouzoh/mercari', \
 #    as:command, \
-#    use:'b4b4r07/(*).sh', \
+#    use:'hohihohi/(*).sh', \
 #    rename-to:'$1'
 #
 #zplug "jhawthorn/fzy", \
 #    as:command, \
 #    hook-build:"make && sudo make install"
 #
-#zplug "b4b4r07/git-open", as:command, at:patch-1
-#zplug "b4b4r07/open-link.sh", as:command, use:'(*).bash', rename-to:'$1'
-#zplug "b4b4r07/zsh-gomi", as:command, use:bin/gomi
-#zplug "b4b4r07/ssh-keyreg", as:command, use:bin
+#zplug "hohihohi/git-open", as:command, at:patch-1
+#zplug "hohihohi/open-link.sh", as:command, use:'(*).bash', rename-to:'$1'
+#zplug "hohihohi/zsh-gomi", as:command, use:bin/gomi
+#zplug "hohihohi/ssh-keyreg", as:command, use:bin
 #zplug "mrowa44/emojify", as:command
-#zplug 'b4b4r07/copy', as:command, use:'(*).sh', rename-to:'$1'
+#zplug 'hohihohi/copy', as:command, use:'(*).sh', rename-to:'$1'
 #
-## zplug "b4b4r07/ultimate", as:theme
-#if zplug check "b4b4r07/ultimate"; then
+## zplug "hohihohi/ultimate", as:theme
+#if zplug check "hohihohi/ultimate"; then
 #    zstyle ':ultimate:prompt:path' mode 'shortpath'
 #fi
-#source /Users/b4b4r07/src/github.com/b4b4r07/ultimate/ultimate.zsh-theme
+#source /Users/hohihohi/src/github.com/hohihohi/ultimate/ultimate.zsh-theme
 ##zplug 'themes/agnoster', from:oh-my-zsh
 #
 ## zplug mafredri/zsh-async, from:github
 ## zplug sindresorhus/pure, use:pure.zsh, from:github, as:theme
 #
-#zplug 'b4b4r07/zplug-doctor', lazy:yes
-#zplug 'b4b4r07/zplug-cd', lazy:yes
-#zplug 'b4b4r07/zplug-rm', lazy:yes
+#zplug 'hohihohi/zplug-doctor', lazy:yes
+#zplug 'hohihohi/zplug-cd', lazy:yes
+#zplug 'hohihohi/zplug-rm', lazy:yes
 #
-#zplug 'b4b4r07/tmux-powertools', \
+#zplug 'hohihohi/tmux-powertools', \
 #    hook-load:'tmux-loader'
 #
-##zplug 'b4b4r07/git-powertools', \
+##zplug 'hohihohi/git-powertools', \
 ##    as:command, \
 ##    use:'bin/*'
 #
-#zplug 'b4b4r07/zls', lazy:yes
-#zplug 'b4b4r07/fpath-editor', lazy:yes
+#zplug 'hohihohi/zls', lazy:yes
+#zplug 'hohihohi/fpath-editor', lazy:yes
 #
 #zplug 'andialbrecht/sqlparse', \
 #    as:command, \
@@ -139,11 +139,11 @@
 #    as:command, \
 #    hook-build:'go get -d ./src/gosleep/... && go build ./src/gosleep/...'
 #
-#zplug 'b4b4r07/fzf-powertools', \
+#zplug 'hohihohi/fzf-powertools', \
 #    as:command, \
 #    use:'re'
 #
-##zplug 'b4b4r07/git-switch', \
+##zplug 'hohihohi/git-switch', \
 ##    as:command, \
 ##    use:'(*).sh', \
 ##    rename-to:'$1'
@@ -153,14 +153,14 @@
 #    use:'(*).sh', \
 #    rename-to:'$1'
 #
-#zplug 'b4b4r07/ltsv.sh', \
+#zplug 'hohihohi/ltsv.sh', \
 #    as:command, \
 #    use:'(ltsv).sh', \
 #    rename-to:'$1'
 #
-##zplug 'b4b4r07/zsh-history', defer:3, use:init.zsh
-#zplug 'b4b4r07/zsh-history', as:command, use:misc/fzf-wrapper.zsh, rename-to:ff
-#if zplug check 'b4b4r07/zsh-history'; then
+##zplug 'hohihohi/zsh-history', defer:3, use:init.zsh
+#zplug 'hohihohi/zsh-history', as:command, use:misc/fzf-wrapper.zsh, rename-to:ff
+#if zplug check 'hohihohi/zsh-history'; then
 #    export ZSH_HISTORY_FILE="$HOME/.zsh_history.db"
 #    ZSH_HISTORY_KEYBIND_GET_BY_DIR="^r"
 #    ZSH_HISTORY_KEYBIND_GET_ALL="^r^a"
@@ -169,21 +169,21 @@
 #    ZSH_HISTORY_KEYBIND_ARROW_DOWN="^n"
 #fi
 #
-#zplug 'b4b4r07/git-fzf', hook-build:'make'
-#zplug 'b4b4r07/git-fzf', \
+#zplug 'hohihohi/git-fzf', hook-build:'make'
+#zplug 'hohihohi/git-fzf', \
 #    as:command, \
 #    use:'bin/(git-*).zsh', \
 #    rename-to:'$1'
 #
-#zplug 'b4b4r07/dbl', \
+#zplug 'hohihohi/dbl', \
 #    as:command, \
 #    use:'(dbl).zsh', \
 #    rename-to:'$1'
 #
-#zplug 'b4b4r07/kubernetes-alias', use:zshrc
+#zplug 'hohihohi/kubernetes-alias', use:zshrc
 #
-## zplug 'b4b4r07/history', use:misc/zsh/init.zsh
-## if zplug check 'b4b4r07/history'; then
+## zplug 'hohihohi/history', use:misc/zsh/init.zsh
+## if zplug check 'hohihohi/history'; then
 ##     export ZSH_HISTORY_AUTO_SYNC=false
 ## fi
 #
@@ -197,4 +197,4 @@
 #zplug "akarzim/zsh-docker-aliases"
 #
 #export ZSH_HISTORY_AUTO_SYNC=false
-#source "/Users/b4b4r07/src/github.com/b4b4r07/history/misc/zsh/init.zsh"
+#source "/Users/hohihohi/src/github.com/hohihohi/history/misc/zsh/init.zsh"

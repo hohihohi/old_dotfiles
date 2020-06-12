@@ -1,7 +1,7 @@
 github "enhancd" {
   description = "A next-generation cd command with your interactive filter"
 
-  owner = "b4b4r07"
+  owner = "hohihohi"
   repo  = "enhancd"
 
   plugin {
@@ -106,7 +106,7 @@ github "envchain" {
 }
 
 # github "history" {
-#   owner = "b4b4r07"
+#   owner = "hohihohi"
 #   repo  = "history"
 #
 #   plugin {
@@ -145,7 +145,7 @@ github "fast-syntax-highlighting" {
 #   // Similar to subnixr/minimal
 #   description = "Ultimate is a simple theme for minimalistic zsh users"
 #
-#   owner = "b4b4r07"
+#   owner = "hohihohi"
 #   repo  = "ultimate"
 #
 #   plugin {
@@ -170,7 +170,7 @@ github "prok" {
 github "zsh-vimode-visual" {
   description = "Implement the vim-like visual mode to vi-mode of zsh"
 
-  owner = "b4b4r07"
+  owner = "hohihohi"
   repo  = "zsh-vimode-visual"
 
   plugin {
@@ -379,7 +379,7 @@ github "distribution" {
 github "zsh-prompt-minimal" {
   description = "Super super super minimal prompt for zsh"
 
-  owner = "b4b4r07"
+  owner = "hohihohi"
   repo  = "zsh-prompt-minimal"
 
   plugin {

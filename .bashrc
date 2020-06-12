@@ -302,7 +302,7 @@ bashrc_loading() {
     # repos is a list of bash plugins you want to download and use
     # The repo's name must consist of "username/reponame"
     repos=(
-    "b4b4r07/enhancd"
+    "hohihohi/enhancd"
     )
 
     # repo is available

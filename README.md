@@ -2,7 +2,7 @@ dotfiles
 
 <!--
 <p align="center">
-<a name="top" href="http://b4b4r07.com/dotfiles"><img src="https://raw.githubusercontent.com/b4b4r07/screenshots/master/dotfiles/logo.png"></a>
+<a name="top" href="http://hohihohi.com/dotfiles"><img src="https://raw.githubusercontent.com/hohihohi/screenshots/master/dotfiles/logo.png"></a>
 </p>
 
 <p align="center">
@@ -25,10 +25,10 @@ dotfiles
 
 <br>
 
-[![](https://img.shields.io/travis/b4b4r07/dotfiles.svg?style=flat-square)][travis]
+[![](https://img.shields.io/travis/hohihohi/dotfiles.svg?style=flat-square)][travis]
 [![](http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)][license]
 [![](https://img.shields.io/badge/platform-OS%20X%20%7C%20Linux-808080.svg?style=flat-square)][platform]
-[![](https://voting-badge.herokuapp.com/img?url=https://github.com/b4b4r07/dotfiles)][vote]
+[![](https://voting-badge.herokuapp.com/img?url=https://github.com/hohihohi/dotfiles)][vote]
 [![](https://img.shields.io/badge/documentation-etc-red.svg?style=flat-square)][doc]
 
 This is a repository with my [configuration files](http://en.wikipedia.org/wiki/Configuration_file), those that in Linux/OS X normally are these files under the `$HOME` directory that are hidden and preceded by a dot, AKA **dotfiles**.
@@ -52,7 +52,7 @@ My primary OS is OS X (10.10.x) and some of these configurations are tuned to wo
 
 ***DEMO:***
 
-[![](https://raw.githubusercontent.com/b4b4r07/screenshots/master/dotfiles/demo_retina.png)][dotfiles]
+[![](https://raw.githubusercontent.com/hohihohi/screenshots/master/dotfiles/demo_retina.png)][dotfiles]
 
 **Note:** You can clone or fork them freely, but I don't guarantee that they fit you.
 
@@ -74,13 +74,13 @@ Run the following command to set up a new machine:
     <tbody>
         <tr>
             <td><strong>cURL</strong></td>
-            <td>bash -c "$(curl -fsSL <a href="https://raw.githubusercontent.com/b4b4r07/dotfiles/master/etc/install">dot.b4b4r07.com</a>)"</td>
-            <td align="center"><a href="http://b4b4r07.com/dotfiles">:clipboard:</a></td>
+            <td>bash -c "$(curl -fsSL <a href="https://raw.githubusercontent.com/hohihohi/dotfiles/master/etc/install">dot.hohihohi.com</a>)"</td>
+            <td align="center"><a href="http://hohihohi.com/dotfiles">:clipboard:</a></td>
         </tr>
         <tr>
             <td><strong>Wget</strong></td>
-            <td>bash -c "$(wget -qO - <a href="https://raw.githubusercontent.com/b4b4r07/dotfiles/master/etc/install">dot.b4b4r07.com</a>)"</td>
-            <td align="center"><a href="http://b4b4r07.com/dotfiles">:clipboard:</a></td>
+            <td>bash -c "$(wget -qO - <a href="https://raw.githubusercontent.com/hohihohi/dotfiles/master/etc/install">dot.hohihohi.com</a>)"</td>
+            <td align="center"><a href="http://hohihohi.com/dotfiles">:clipboard:</a></td>
         </tr>
     </tbody>
 </table>
@@ -96,7 +96,7 @@ Run the following command to set up a new machine:
 - General download method using the `git` command:
 
 	```console
-	$ git clone https://github.com/b4b4r07/dotfiles.git ~/.dotfiles
+	$ git clone https://github.com/hohihohi/dotfiles.git ~/.dotfiles
 	$ cd ~/.dotfiles && make install
 	```
 	
@@ -116,16 +116,16 @@ When the [installation command](#oneliner) format is not `curl -L URL | sh` but 
 
 ***DEMO:***
 
-[![](https://raw.githubusercontent.com/b4b4r07/screenshots/master/dotfiles/demo.gif)][dotfiles]
+[![](https://raw.githubusercontent.com/hohihohi/screenshots/master/dotfiles/demo.gif)][dotfiles]
 
 ### Quick installation
 
-[![](https://raw.githubusercontent.com/b4b4r07/screenshots/master/dotfiles/curl.png)][dotfiles]
+[![](https://raw.githubusercontent.com/hohihohi/screenshots/master/dotfiles/curl.png)][dotfiles]
 
 To quickly install:
 
 ```console
-$ curl -sL dot.b4b4r07.com | sh
+$ curl -sL dot.hohihohi.com | sh
 ```
 
 Difference of *Installation* and *Quick Installation* is that the latter one-liner is shorter than the former one (including typing the number of shift key). However, because when you install in the *Quick installation* shell is not re-boot, it is necessary to perform the `exec sh` yourself.
@@ -133,11 +133,11 @@ Difference of *Installation* and *Quick Installation* is that the latter one-lin
 <table style="border:none;">
   <tr style="border:none;">
     <td style="border:none;"><strong>42 chars</strong></td>
-    <td style="border:none;"><code>bash -c "$(curl -sL dot.b4b4r07.com)"</code></td>
+    <td style="border:none;"><code>bash -c "$(curl -sL dot.hohihohi.com)"</code></td>
   </tr>
   <tr style="border:none;">
     <td style="border:none;"><strong>30 chars</strong></td>
-    <td style="border:none;"><code>curl -sL dot.b4b4r07.com | sh</code></td>
+    <td style="border:none;"><code>curl -sL dot.hohihohi.com | sh</code></td>
   </tr>
 </table>
 
@@ -172,7 +172,7 @@ $ make init
 To run `make init` immediately after running the [installation command](#oneliner):
 
 ```console
-$ bash -c "$(curl -L dot.b4b4r07.com)" -s init
+$ bash -c "$(curl -L dot.hohihohi.com)" -s init
 ```
 
 **Init scripts**
@@ -210,8 +210,8 @@ Make the configuration file for personal use. Copy and paste the following to pe
 # Git credentials
 # Not under version control to prevent people from
 # accidentally committing with your details
-GIT_AUTHOR_NAME="b4b4r07"
-GIT_AUTHOR_EMAIL="b4b4r07@example.com"
+GIT_AUTHOR_NAME="hohihohi"
+GIT_AUTHOR_EMAIL="hohihohi@example.com"
 GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
 GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 
@@ -278,7 +278,7 @@ $ vagrant destroy -f   # when finished, destroy the VM
 
 ## Structure
 
-[![](https://raw.githubusercontent.com/b4b4r07/screenshots/master/dotfiles/components.png)](https://raw.githubusercontent.com/b4b4r07/screenshots/master/dotfiles/components.png)
+[![](https://raw.githubusercontent.com/hohihohi/screenshots/master/dotfiles/components.png)](https://raw.githubusercontent.com/hohihohi/screenshots/master/dotfiles/components.png)
 
 <p align="right"><a href="#top">:arrow_up:</a></p>
 
@@ -302,23 +302,23 @@ Acknowledgment; I established this dotfiles referring to the following user's re
 
 ## Licence [![](http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)][license]
 
-[![b4b4r07](http://www.gravatar.com/avatar/8238c3c0be55b887aa9d6d59bfefa504.png)](https://twitter.com/intent/follow?screen_name=b4b4r07 "Follow @b4b4r07 on Twitter")
+[![hohihohi](http://www.gravatar.com/avatar/8238c3c0be55b887aa9d6d59bfefa504.png)](https://twitter.com/intent/follow?screen_name=hohihohi "Follow @hohihohi on Twitter")
 
-Copyright (c) 2014 "BABAROT" b4b4r07
+Copyright (c) 2014 "BABAROT" hohihohi
 
 Licensed under the [MIT license](./doc/LICENSE-MIT.txt).
 
 Unless attributed otherwise, everything is under the MIT licence. Some stuff is not from me, and without attribution, and I no longer remember where I got it from. I apologize for that.
 
-[![](https://d2weczhvl823v0.cloudfront.net/b4b4r07/dotfiles/trend.png)][bitdeli]
+[![](https://d2weczhvl823v0.cloudfront.net/hohihohi/dotfiles/trend.png)][bitdeli]
 
-[travis]: https://travis-ci.org/b4b4r07/dotfiles
+[travis]: https://travis-ci.org/hohihohi/dotfiles
 [license]: ./doc/LICENSE-MIT.txt
 [platform]: ./doc/OS_X.md
-[vote]: https://voting-badge.herokuapp.com/vote?url=https://github.com/b4b4r07/dotfiles
+[vote]: https://voting-badge.herokuapp.com/vote?url=https://github.com/hohihohi/dotfiles
 [doc]: ./etc/README.md
 [bitdeli]: https://bitdeli.com/free
-[dotfiles]: http://b4b4r07.com/dotfiles
+[dotfiles]: http://hohihohi.com/dotfiles
 
 <p align="right"><a href="#top">:arrow_up:</a></p>
 -->
