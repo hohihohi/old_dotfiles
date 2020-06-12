@@ -8,14 +8,14 @@ function! s:hohihohi() "{{{1
     setlocal modifiable nocursorline nocursorcolumn
 
     let hohihohi = []
-    call add(hohihohi, 'Copyright (c) 2014                                 hohihohi''s vimrc.')
-    call add(hohihohi, '.______    _  _    .______    _  _    .______        ___    ______  ')
-    call add(hohihohi, '|   _  \  | || |   |   _  \  | || |   |   _  \      / _ \  |____  | ')
-    call add(hohihohi, '|  |_)  | | || |_  |  |_)  | | || |_  |  |_)  |    | | | |     / /  ')
-    call add(hohihohi, '|   _  <  |__   _| |   _  <  |__   _| |      /     | | | |    / /   ')
-    call add(hohihohi, '|  |_)  |    | |   |  |_)  |    | |   |  |\  \----.| |_| |   / /    ')
-    call add(hohihohi, '|______/     |_|   |______/     |_|   | _| `._____| \___/   /_/     ')
-    call add(hohihohi, '           #VIM + #ZSH + #TMUX = Best Developer Environmen          ')
+    call add(hohihohi, 'Copyright (c) 2014                     hohihohi''s vimrc.')
+    call add(hohihohi, '██╗  ██╗ ██████╗ ██╗  ██╗██╗██╗  ██╗ ██████╗ ██╗  ██╗██╗ ')
+    call add(hohihohi, '██║  ██║██╔═══██╗██║  ██║██║██║  ██║██╔═══██╗██║  ██║██║ ')
+    call add(hohihohi, '███████║██║   ██║███████║██║███████║██║   ██║███████║██║ ')
+    call add(hohihohi, '██╔══██║██║   ██║██╔══██║██║██╔══██║██║   ██║██╔══██║██║ ')
+    call add(hohihohi, '██║  ██║╚██████╔╝██║  ██║██║██║  ██║╚██████╔╝██║  ██║██║ ')
+    call add(hohihohi, '╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝ ')
+    call add(hohihohi, '     #VIM + #ZSH + #TMUX = Best Developer Environmen     ')
 
     silent put =repeat([''], winheight(0)/2 - len(hohihohi)/2)
     let space = repeat(' ', winwidth(0)/2 - strlen(hohihohi[0])/2)
