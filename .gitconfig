@@ -1,10 +1,18 @@
+# please see https://git-scm.com/docs/git-config
 [core]
     # pager = diff-so-fancy | less --tabs=4 -RFX
+    editor = vim
+    quotepath = false
+    ignorecase = false
     excludesfile = ~/.gitignore
     preloadindex = true
 
 [color]
-    ui = auto
+    ui = true
+    branch = true
+    diff = true
+    interactive = true
+    status = true
 
 [color "diff"]
     # http://qiita.com/qurage/items/452f2debb64e2708a46c
@@ -21,6 +29,9 @@
 #    old = red bold
 #    new = green bold
 #    whitespace = red reverse
+
+#[http]
+#    proxy = http://proxy.example.com:8080
 
 [alias]
     st = status
@@ -44,6 +55,16 @@
     default = matching
 
 [user]
+    name  = hohihohi
+    email = a56.tazima@gmail.com
+	signingkey = 44784C01A7AEA824
+
+[user "https://gitlab.com"]
+    name  = hohihohi
+    email = a56.tazima@gmail.com
+	signingkey = 44784C01A7AEA824
+
+[user "https://github.com"]
     name  = hohihohi
     email = a56.tazima@gmail.com
 	signingkey = 44784C01A7AEA824
@@ -72,6 +93,16 @@
 
 [commit]
 	gpgSign = true
+	template = $HOME/.commit_template
+
+[credential]
+	helper = cache --timeout=43200
 
 [gpg]
 	program = gpg
+
+[help]
+	autocorrect = 1
+
+[recieve]
+	fsckObjects = true
