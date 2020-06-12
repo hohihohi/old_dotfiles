@@ -98,3 +98,6 @@
 
 [help]
 	autocorrect = 1
+
+[recieve]
+	fsckObjects = true
