@@ -90,5 +90,8 @@
 [commit]
 	gpgSign = true
 
+[credential]
+	helper = cache --timeout=43200
+
 [gpg]
 	program = gpg
