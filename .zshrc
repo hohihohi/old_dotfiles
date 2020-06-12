@@ -7,7 +7,15 @@ if [[ -x ~/bin/tmuxx ]]; then
     ~/bin/tmuxx
 fi
 
-source <(pkg load)
+# load zsh files
+ZSHHOME="${PWD}/.zsh"
+if [ -d $ZSHHOME -a -r $ZSHHOME -a \
+     -x $ZSHHOME ]; then
+    for i in $ZSHHOME/*; do
+        [[ ${i##*/} = *.zsh ]] &&
+            [ \( -f $i -o -h $i \) -a -r $i ] && . $i
+    done
+fi
 
 printf "\n"
 printf "${fg_bold[cyan]} ${SHELL} ${fg_bold[red]}${ZSH_VERSION}"
