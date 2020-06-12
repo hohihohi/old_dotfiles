@@ -1,3 +1,4 @@
+# please see https://git-scm.com/docs/git-config
 [core]
     # pager = diff-so-fancy | less --tabs=4 -RFX
     editor = vim
@@ -28,6 +29,9 @@
 #    old = red bold
 #    new = green bold
 #    whitespace = red reverse
+
+#[http]
+#    proxy = http://proxy.example.com:8080
 
 [alias]
     st = status
