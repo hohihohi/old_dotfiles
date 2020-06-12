@@ -55,6 +55,16 @@
     email = a56.tazima@gmail.com
 	signingkey = 44784C01A7AEA824
 
+[user "https://gitlab.com"]
+    name  = hohihohi
+    email = a56.tazima@gmail.com
+	signingkey = 44784C01A7AEA824
+
+[user "https://github.com"]
+    name  = hohihohi
+    email = a56.tazima@gmail.com
+	signingkey = 44784C01A7AEA824
+
 [pager]
     log  = diff-highlight | less -RX
     show = diff-highlight | less -RX
