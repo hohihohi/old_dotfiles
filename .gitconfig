@@ -95,3 +95,6 @@
 
 [gpg]
 	program = gpg
+
+[help]
+	autocorrect = 1
