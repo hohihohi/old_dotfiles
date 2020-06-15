@@ -1,0 +1,171 @@
+[options]
+  automatic_update = true
+# set spacevim theme. by default colorscheme layer is not loaded,
+# if you want to use more colorscheme, please load the colorscheme
+# layer
+  colorscheme = "molokai"
+#  colorscheme_bg = "dark"
+# Disable guicolors in basic mode, many terminal do not support 24bit
+# true colors
+  enable_guicolors = true
+# Disable statusline separator, if you want to use other value, please
+# install nerd fonts
+  statusline_separator = "arrow"
+  statusline_inactive_separator = "arrow"
+  buffer_index_type = 4
+  enable_tabline_filetype_icon = true
+  enable_statusline_mode = true
+  enable_vimfiler_gitstatus = true
+  enable_cursorline = true
+  filetype_icon = true
+  enable_tabline_filetype_icon = true
+# set spacevim file tree display.
+  filetree_direction = 'left'
+# set line number setting.
+# by default line number starts at current cursor position,
+# If you want to use absolute line number, please set false
+  relativenumber = false
+
+# Enable autocomplete layer
+# https://spacevim.org/layers/autocomplete/
+[[layers]]
+  name = 'autocomplete'
+  auto-completion-return-key-behavior = "complete"
+  auto-completion-tab-key-behavior = "smart"
+
+# Utility layers
+[[layers]]
+  name = 'shell'
+  default_position = 'top'
+  default_height = 30
+
+# https://spacevim.org/layers/language-server-protocol/
+[[layers]]
+  name = "lsp"
+  filetypes = [
+    "go"
+  ]
+
+[[layers]]
+  name = "japanese"
+
+[[layers]]
+  name = 'colorscheme'
+  enable = true
+
+[[layers]]
+  name = 'ctrlp'
+enable = true
+
+[[layers]]
+  name = 'ui'
+  enable = true
+  enable_sidebar = true
+
+[[layers]]
+  name = 'git'
+  enable = true
+
+[[layers]]
+  name = 'github'
+  enable = true
+
+[[layers]]
+  name = 'denite'
+  enable = true
+
+[[layers]]
+  name = "tmux"
+  enable = true
+
+[[layers]]
+  name = "fzf"
+
+[[layers]]
+  name = "format"
+  enable = true
+
+[[layers]]
+  name = "tools"
+
+# Enable language layers
+[[layers]]
+  name = "lang#asciidoc"
+
+[[layers]]
+  name = "lang#dockerfile"
+
+[[layers]]
+  name = "lang#go"
+
+[[layers]]
+  name = "lang#html"
+
+[[layers]]
+  name = "lang#javascript"
+  auto_fix = true
+  enable_flow_syntax = true
+
+[[layers]]
+  name = "lang#sh"
+
+[[layers]]
+  name = 'lang#c'
+  enable = true
+
+[[layers]]
+  name = 'lang#csharp'
+  enable = true
+
+[[layers]]
+  name = 'lang#elixir'
+  enable = true
+
+[[layers]]
+  name = 'lang#haskell'
+  enable = true
+
+[[layers]]
+  name = 'lang#html'
+  enable = true
+
+[[layers]]
+  name = 'lang#java'
+  enable = true
+
+[[layers]]
+  name = 'lang#javascript'
+  enable = true
+
+[[layers]]
+  name = 'lang#lisp'
+  enable = true
+
+[[layers]]
+  name = 'lang#markdown'
+  enable = true
+
+[[layers]]
+  name = 'lang#ocaml'
+  enable = true
+
+[[layers]]
+  name = 'lang#php'
+  enable = true
+
+[[layers]]
+  name = 'lang#python'
+  enable = true
+
+[[layers]]
+  name = 'lang#ruby'
+  enable = true
+
+[[layers]]
+  name = 'lang#typescript'
+  enable = true
+
+[[layers]]
+  name = 'lang#vim'
+  enable = true
+
