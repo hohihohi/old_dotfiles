@@ -15,6 +15,7 @@ install: ## Create symlink to home directory
 	@echo '==> Start to deploy dotfiles to home directory.'
 	@echo ''
 	@$(foreach val, $(DOTFILES), ln -sfnv $(abspath $(val)) $(HOME)/$(val);)
+	@curl -sLf https://spacevim.org/install.sh | bash
 
 clean: ## Remove the dot files and this repo
 	@echo 'Remove dot files in your home directory...'
