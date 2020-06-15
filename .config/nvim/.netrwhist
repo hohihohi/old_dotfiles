@@ -1,9 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/Users/hohihohi/src/github.com/hohihohi/antidote'
-let g:netrw_dirhist_2='/Users/hohihohi/src/github.com/hohihohi/antidote/antidote'
-let g:netrw_dirhist_3='/Users/hohihohi/src/github.com/hohihohi/ultimate'
-let g:netrw_dirhist_4='/Users/hohihohi/src/github.com/hohihohi/ultimate/modules'
-let g:netrw_dirhist_5='/Users/hohihohi/src/github.com/hohihohi'
-let g:netrw_dirhist_6='/Users/hohihohi/src/github.com/hohihohi/ultimate'
-let g:netrw_dirhist_7='/Users/hohihohi/src/github.com/hohihohi/dotfiles'
